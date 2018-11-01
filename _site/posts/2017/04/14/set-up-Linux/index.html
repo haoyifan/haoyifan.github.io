@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      If CUDA driver ruins my Linux Again &ndash;
+    
+    
+  </title>
+
+  <meta name="author" content="" />
+  <meta name="description" content="Personal site for Yifan Hao" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" href="http://localhost:4000/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="http://localhost:4000/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <script type="text/javascript" src="/js/application.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="images/favicons/manifest.json">
+  <link rel="shortcut icon" href="images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <section class="sidebar">
+  <a href="/" aria-label="Avatar">
+    <img src="/images/profile.jpg?s=150" height="75" width="75" class="avatar" />
+  </a>
+
+  <section class="name">
+    <a href="/">
+      <span id="fname"></span>
+      <span id="lname"></span>
+    </a>
+  </section>
+
+  <section class="meta">
+    <a href="https://github.com/haoyifan" target="_blank" title="Follow me on GitHub" aria-label="Follow me on GitHub"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/yifan-hao-806128ba/" target="_blank" title="Follow me on Linkedin" aria-label="Follow me on Linkedin"><i class="fa fa-linkedin-square"></i></a>
+    <a href="mailto:haoyifan@umich.edu" target="_blank" title="send me an email" aria-label="send me an email"><i class="fa fa-fw fa fa-envelope"></i></a>
+    <a href="https://www.instagram.com/pia19950203/" target="_blank" title="ins!" aria-label="ins!"><i class="fa fa-camera-retro"></i></a>
+  </section>
+
+  <section class="sections">
+    <ul>
+      <li><a href="/about.html">about</a></li>
+      <li><a href="/news.html">news</a></li>
+      <li><a href="/post.html">posts</a></li>
+      <li><a href="/random.html">random</a></li>
+      <li><a href="/contact.html">contact</a></li>
+    </ul>
+  </section>
+</section>
+
+  <section class="content">
+  <h1>
+    <a href="/posts/2017/04/14/set-up-Linux/">If CUDA driver ruins my Linux Again</a>
+  </h1>
+
+  <section class="byline">
+    April 14, 2017
+  </section>
+
+  <h3 id="step-1-dotfile">Step 1 (dotfile)</h3>
+
+<ul>
+  <li>copy all the dotfiles stored in github</li>
+</ul>
+
+<h3 id="step-2-vim">Step 2 (vim)</h3>
+
+<ul>
+  <li>Download SpaceVim</li>
+  <li>mkdir .SpaceVim.d, and copy .vimrc into .SpaceVim.d</li>
+  <li>install ctags</li>
+  <li>install ConqueGdb</li>
+</ul>
+
+<h3 id="step-3-mutt">Step 3 (mutt)</h3>
+
+<ul>
+  <li>Here are good tutorials to set it up:</li>
+  <li><a href="https://www.linux.com/blog/setup-mutt-gmail-centos-and-ubuntu" title="tutorial 1">tutorial1</a></li>
+  <li><a href="https://www.garron.me/en/go2linux/send-mail-gmail-mutt.html" title="tutorial 2">tutorial2</a></li>
+  <li>Copy over .muttrc</li>
+</ul>
+
+<h3 id="step-4-zsh">Step 4 (zsh)</h3>
+
+<ul>
+  <li>Download and install zsh and copy over .zshrc</li>
+</ul>
+
+<h3 id="step-5-tmux">Step 5 (Tmux)</h3>
+
+<ul>
+  <li>Just copy over config file</li>
+</ul>
+
+<h3 id="step-6">Step 6</h3>
+
+<ul>
+  <li>Definitely get a good wallpaper</li>
+</ul>
+
+<h3 id="step-7-hugme">Step 7 (hugMe)</h3>
+
+<ul>
+  <li>git clone hugMe repo into desktop</li>
+  <li>crontab -e</li>
+  <li>30 16 * * * /home/parallels/Desktop/hugMe/update.sh</li>
+</ul>
+
+<h3 id="step-8-git">Step 8 (Git)</h3>
+
+<ul>
+  <li>copy over .gitconfig</li>
+</ul>
+
+<hr />
+
+
+
+  <!-- TODO: bio here -->
+</section>
+
+</body>
+
+</html>

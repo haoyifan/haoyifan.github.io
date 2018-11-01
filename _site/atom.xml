@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title></title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2017-04-14T17:42:56-04:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name></name>
+ </author>
+ 
+ 
+   
+   <entry>
+     <title>If CUDA driver ruins my Linux Again</title>
+     <link href="http://localhost:4000/posts/2017/04/14/set-up-Linux/"/>
+     <updated>2017-04-14T00:00:00-04:00</updated>
+     <id>http://localhost:4000/posts/2017/04/14/set-up-Linux</id>
+     <content type="html">&lt;h3 id=&quot;step-1-dotfile&quot;&gt;Step 1 (dotfile)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;copy all the dotfiles stored in github&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-2-vim&quot;&gt;Step 2 (vim)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download SpaceVim&lt;/li&gt;
+  &lt;li&gt;mkdir .SpaceVim.d, and copy .vimrc into .SpaceVim.d&lt;/li&gt;
+  &lt;li&gt;install ctags&lt;/li&gt;
+  &lt;li&gt;install ConqueGdb&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-3-mutt&quot;&gt;Step 3 (mutt)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Here are good tutorials to set it up:&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linux.com/blog/setup-mutt-gmail-centos-and-ubuntu&quot; title=&quot;tutorial 1&quot;&gt;tutorial1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.garron.me/en/go2linux/send-mail-gmail-mutt.html&quot; title=&quot;tutorial 2&quot;&gt;tutorial2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Copy over .muttrc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-4-zsh&quot;&gt;Step 4 (zsh)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download and install zsh and copy over .zshrc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-5-tmux&quot;&gt;Step 5 (Tmux)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Just copy over config file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-6&quot;&gt;Step 6&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Definitely get a good wallpaper&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-7-hugme&quot;&gt;Step 7 (hugMe)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git clone hugMe repo into desktop&lt;/li&gt;
+  &lt;li&gt;crontab -e&lt;/li&gt;
+  &lt;li&gt;30 16 * * * /home/parallels/Desktop/hugMe/update.sh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-8-git&quot;&gt;Step 8 (Git)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;copy over .gitconfig&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+</content>
+   </entry>
+   
+ 
+ 
+</feed>

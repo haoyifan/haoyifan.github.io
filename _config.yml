@@ -1,0 +1,9 @@
+permalink: /posts/:title
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+
+name: Yifan Hao
+url: https://haoyifan.github.io
+github: haoyifan
