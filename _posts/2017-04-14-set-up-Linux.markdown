@@ -6,7 +6,7 @@ category: posts
 
 ### Step 0 (system setup)
 
-* link ~/.profile to Dotfile/profile 
+* link ~/.profile to Dotfile/profile
 * link ~/.bashrc to Dotfile/bashrc
 
 ### Step 1 (dotfile)
@@ -24,7 +24,7 @@ category: posts
 ###  Step 3 (mutt)
 
 * Here are good tutorials to set it up:
-* [tutorial1](https://www.linux.com/blog/setup-mutt-gmail-centos-and-ubuntu "tutorial 1") 
+* [tutorial1](https://www.linux.com/blog/setup-mutt-gmail-centos-and-ubuntu "tutorial 1")
 * [tutorial2](https://www.garron.me/en/go2linux/send-mail-gmail-mutt.html "tutorial 2")
 * Softlink to ~/.muttrc in Dotfile/muttrc
 
@@ -41,11 +41,8 @@ category: posts
 
 * Definitely get a good wallpaper
 
-### Step 7 (hugMe)
-
-* git clone hugMe repo into desktop
-* crontab -e
-* 30 16 * * * /home/parallels/Desktop/hugMe/update.sh
+### Step 7 (lazygit)
+https://github.com/jesseduffield/lazygit
 
 ### Step 8 (Git)
 
