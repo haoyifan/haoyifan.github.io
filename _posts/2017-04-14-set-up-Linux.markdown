@@ -15,11 +15,8 @@ category: posts
 
 ### Step 2 (vim)
 
-* Download SpaceVim
-* mkdir .SpaceVim.d, and link ~/.vimrc into Dotfile/vimrc (should also set up markdown)
-* install ctags
-* install ConqueGdb
-* Configure browser so that I can view md preview real time
+* Install vim from source. Follow the install instructions on YCM
+* Use .vimrc in dotfiles and do PluginInstall.
 
 ###  Step 3 (mutt)
 
